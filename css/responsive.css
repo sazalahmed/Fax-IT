@@ -1,15 +1,51 @@
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-    
-      
- 
-  
+  /*==============================
+    HOME PAGE START
+  =============================*/
+  /* footer start */
+  .tf__footer_right_bottom {
+   gap: 2px;
+  }
+  .tf__footer_right_bottom p {
+   gap: 6px;
+  }
+  /* footer end */
+  /*==============================
+    HOME PAGE END
+  =============================*/ 
 }
 
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
-    
-      
+  /*==============================
+    HOME PAGE START
+  =============================*/
+  /* menu start */
+  .navbar-nav li {
+   margin: 0;
+  }
+  .tf__right_buttons .tf__cart, .tf__right_buttons .tf__search {
+   width: 35px;
+   height: 35px;
+   padding: 5px;
+  }
+  .tf__right_buttons .tf__login {
+   line-height: 16px;
+  }
+  /* menu end */
+  /* footer start */
+  .tf__footer_right_bottom {
+   gap: 2px;
+  }
+  .tf__footer_right_bottom p {
+   gap: 6px;
+  }
+  /* footer end */
+  /*==============================
+    HOME PAGE END
+  =============================*/
+  
  
   
 }
@@ -17,7 +53,27 @@
 
 
 @media (min-width: 768px) and (max-width: 991.99px) {
-    
+  /*==============================
+    HOME PAGE START
+  =============================*/
+  /* footer start */
+  .tf__footer_contact ol, .tf__footer_contact ul {
+   gap: 18px;
+  }
+  .tf__footer_bottom .row {
+   flex-direction: column-reverse;
+  }
+  .tf__footer_right_bottom {
+   justify-content: center;
+  }
+  .tf__copy {
+   text-align: center;
+   padding-top: 20px;
+  }
+  /* footer end */
+  /*==============================
+    HOME PAGE END
+  =============================*/
       
  
   
@@ -28,10 +84,38 @@
 
 
 @media (min-width: 576px) and (max-width: 767.99px) {
-    
-      
- 
-  
+     /*==============================
+    HOME PAGE START
+  =============================*/
+  .tf__topbar {
+   display: none;
+ }
+ /* footer start */
+ .tf__footer_contact {
+  position: relative;
+  margin-bottom: 15px;
+ }
+ .tf__footer_content ol, .tf__footer_content ul {
+  gap: 10px;
+}
+ .tf__footer_content h3 {
+  padding-bottom: 15px;
+}
+.tf__footer_bottom .row {
+ flex-direction: column-reverse;
+}
+.tf__copy {
+ text-align: center;
+ padding-top: 20px;
+}
+.tf__footer_right_bottom {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+ /* footer end */
+ /*==============================
+    HOME PAGE END
+  =============================*/
 }
 
 
@@ -39,10 +123,39 @@
 
 
 @media (max-width: 575.99px) {
-    
-      
- 
-  
+ /*==============================
+    HOME PAGE START
+  =============================*/
+  .tf__topbar {
+   display: none;
+ }
+ /* footer start */
+ .tf__footer_contact {
+  position: relative;
+  margin-bottom: 15px;
+ }
+ .tf__footer_content ol, .tf__footer_content ul {
+  gap: 10px;
+}
+ .tf__footer_content h3 {
+  padding-bottom: 15px;
+}
+.tf__footer_bottom .row {
+ flex-direction: column-reverse;
+}
+.tf__copy {
+ text-align: center;
+ padding-top: 20px;
+}
+.tf__footer_right_bottom {
+	flex-wrap: wrap;
+	justify-content: center;
+}
+ /* footer end */
+ /*==============================
+    HOME PAGE END
+  =============================*/
+
 }
 
 
