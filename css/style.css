@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -82,15 +88,28 @@ button {
     --paraColor: #5A5B6B;
     --colorBlack: #090919;
     --colorWhite: #ffffff;
+    --colorLightWhite: rgba(255, 255, 255, 0.70);
+    --colorLineBG: rgba(255, 255, 255, 0.10);
     --paraFont: 'Nunito Sans', sans-serif;
     --headingFont: 'Montserrat', sans-serif;
-
+    --tobbarFont: 'DM Sans', sans-serif;
+    --paraFont: 'Poppins', sans-serif;
+    --innerBoxFont: 'Nunito Sans', sans-serif;
 }
 
 /*==============================
     GLOBAL CSS START
 =============================*/
-
+input,button {
+    border: none;
+}
+input:hover,
+input:focus,
+button:hover,
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
 
 /*==============================
     GLOBAL CSS END
@@ -101,15 +120,85 @@ button {
     HOME PAGE START
 =============================*/
 /* header start */
+.tf__topbar {
+    background: var(--colorPrimary);
+}
+.tf__contact {
+    margin-top: 2px;
+}
+.tf__contact a {
+    color: var(--colorWhite);
+    font-size: 16px;
+    font-family: var(--tobbarFont);
+}
+.tf__contact a i {
+    color: var(--colorWhite);
+}
 
 
+.tf__social {
+
+}
+.tf__social ol,
+.tf__social ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: end;
+}
+.tf__social ol li,
+.tf__social ul li {}
+.tf__social ol li a,
+.tf__social ul li a {
+    color: var(--colorWhite);
+    font-size: 20px;
+}
 /* header end */
 
 
 
 /* menu start */
+.navbar-nav li {
+    margin: 0 7px;
+}
+.navbar-nav li a {
+    color: var(--colorBlack);
+    font-family: var(--headingFont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
 
+.tf__right_buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.tf__right_buttons .tf__cart,
+.tf__right_buttons .tf__search {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    padding: 10px;
+}
+.tf__right_buttons .tf__login {
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-family: var(--headingFont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
 
+}
 /* menu end */
 
 
@@ -118,6 +207,181 @@ button {
 
 
 /* banner end */
+
+
+
+/* footer start */
+footer {
+    background: var(--colorBlack);
+}
+
+.tf__footer_contact {
+    position: relative;
+}
+.tf__footer_contact h4 {
+    display: inline-block;
+    padding-right: 5px;
+    color: var(--colorWhite);
+    background: var(--colorBlack);
+    font-size: 14px;
+    line-height: 35px;
+    font-weight: 500;
+    font-family: var(--paraFont);
+    position: relative;
+    z-index: 1;
+}
+.tf__footer_contact::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: var(--colorLineBG);
+    position: absolute;
+    top: 17px;
+    left: 0;
+    transform: translateY(-0%);
+    -webkit-transform: translateY(-0%);
+    -moz-transform: translateY(-0%);
+    -ms-transform: translateY(-0%);
+    -o-transform: translateY(-0%);
+    /* z-index: 1; */
+}
+
+.tf__footer_contact p a {
+    color: var(--colorWhite);
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: var(--paraFont);
+}
+.tf__footer_contact.contact_with h4 {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+.tf__footer_contact ol,
+.tf__footer_contact ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.tf__footer_contact ol li a,
+.tf__footer_contact ul li a {
+    color: var(--colorWhite);
+    font-size: 16px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.tf__footer_contact ol li a:hover,
+.tf__footer_contact ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.tf__footer_body {
+    border-top: 1px solid var(--colorLineBG);
+    border-bottom: 1px solid var(--colorLineBG);
+}
+
+.tf__footer_content p {
+    color: var(--colorLightWhite);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--paraFont);
+    line-height: 28px;
+}
+
+.tf__footer_content h3 {
+    color: var(--colorWhite);
+    font-family: var(--headingFont);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-bottom: 27px;
+}
+
+.tf__footer_content ol,
+.tf__footer_content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tf__footer_content ol li a,
+.tf__footer_content ul li a {
+    color: var(--colorLightWhite);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: var(--tobbarFont);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.tf__footer_content ol li a:hover,
+.tf__footer_content ul li a:hover {
+    color: var(--colorPrimary);
+}
+
+.tf__footer_content form .tf_subscribe {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    border: 2px solid var(--colorLineBG);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    padding: 17px 20px;
+}
+.tf__footer_content form .tf_subscribe input[type=email] {
+    background: transparent;
+    padding: 0;
+    color: var(--colorWhite);
+}
+
+.tf__footer_content form input[type=submit] {
+    width: inherit;
+    color: var(--colorWhite);
+    text-align: center;
+    font-family: var(--headingFont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background: var(--colorPrimary);  
+}
+
+.tf__footer_right_bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.tf__footer_right_bottom p {
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+}
+.tf__footer_right_bottom p a {
+    color: var(--colorLightWhite);
+    font-family: var(--paraFont);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.tf__payment {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* footer end */
 
 
 
