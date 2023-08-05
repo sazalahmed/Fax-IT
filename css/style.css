@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +30,8 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+    font-family: var(--headingFont);
+    color: var(--colorBlack);
 }
 
 p,
@@ -35,11 +39,15 @@ span {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
+    color: var(--paraColor);
+    font-family: var(--paraFont);
 }
 
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: var(--paraColor);
+    font-family: var(--paraFont);
 }
 
 img {
@@ -69,12 +77,67 @@ button {
     border: none;
 }
 
-/* :root {
-    --colorPrimary: #292B75;
-    --paraColor: #5A5A5A;
-    --colorBlack: #121212;
+:root {
+    --colorPrimary: #FF3838;
+    --paraColor: #5A5B6B;
+    --colorBlack: #090919;
     --colorWhite: #ffffff;
-    --paraFont: 'Roboto', sans-serif;
-    --headingFont: 'Source Sans Pro', sans-serif;
+    --paraFont: 'Nunito Sans', sans-serif;
+    --headingFont: 'Montserrat', sans-serif;
 
-} */
+}
+
+/*==============================
+    GLOBAL CSS START
+=============================*/
+
+
+/*==============================
+    GLOBAL CSS END
+=============================*/
+
+
+/*==============================
+    HOME PAGE START
+=============================*/
+/* header start */
+
+
+/* header end */
+
+
+
+/* menu start */
+
+
+/* menu end */
+
+
+
+/* banner start */
+
+
+/* banner end */
+
+
+
+/*==============================
+    HOME PAGE END
+=============================*/
+
+
+
+
+
+
+
+
+
+
+/*==============================
+    START
+=============================*/
+
+/*==============================
+    END
+=============================*/
