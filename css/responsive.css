@@ -81,6 +81,32 @@
   }
   /* banner end */
 
+  /* about start */
+  .tf_section_heading h2 {
+    font-size: 33px;
+    line-height: 40px;
+  }
+  .tf__grid .tf__right {
+    padding: 20px;
+  }
+  .tf__grid .tf__left ul {
+    padding-top: 23px;
+    padding-bottom: 27px;
+  }
+
+  .tf__about_img_box .tf__support_img {
+    bottom: -4px;
+    width: 251px;
+  }
+
+  .tf__grid {
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: inherit;
+  }
+  /* about end */
+
   /* footer start */
   .tf__footer_right_bottom {
     gap: 2px;
@@ -187,6 +213,22 @@
   }
   /* banner end */
 
+  /* about start */
+  .tf_section_heading h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .tf__about_img_box .tf__support_img {
+    bottom: 4px;
+  }
+  .tf__grid {
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: inherit;
+  }
+  /* about end */
+
   /* footer start */
   .tf__footer_contact {
     position: relative;
@@ -231,6 +273,13 @@
   /*==============================
     HOME PAGE START
   =============================*/
+  /* global css start */
+  .tf_section_heading h2 {
+    font-size: 33px;
+    line-height: 42px;
+  }
+  /* global css end */
+
   /* topbar start */
   .tf__topbar {
     display: none;
@@ -269,6 +318,48 @@
     left: 17px;
   }
   /* banner end */
+
+  /* about start */
+  .tf__about_img_box {
+    grid-template-columns: 70px 1fr;
+    gap: 20px;
+    width: 296px;
+    margin: 0 auto;
+  }
+  .tf__about_img_box .tf__small_img img {
+    height: 39% !important;
+  }
+  .tf__about_img_box .tf__support_img {
+    bottom: -10px;
+    left: -19px;
+    width: 205px;
+  }
+  .tf__about_img_box .tf__support_img .tf__card {
+    width: 168px;
+  }
+  .tf__about_img_box .tf__support_img .tf__card span svg {
+    width: 30px;
+  }
+  .tf__about_img_box .tf__support_img .tf__card h3 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .tf__about_img_box .tf__support_img .tf__card p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .tf__grid {
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: inherit;
+  }
+
+  .tf__grid .tf__left ul li {
+    font-size: 13px;
+  }
+  /* about end */
 
   /* footer start */
   .tf__footer_contact {
