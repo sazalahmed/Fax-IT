@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"); */
 
 * {
   margin: 0;
@@ -90,11 +88,8 @@ button {
   --colorWhite: #ffffff;
   --colorLightWhite: rgba(255, 255, 255, 0.7);
   --colorLineBG: rgba(255, 255, 255, 0.1);
-  --paraFont: "Nunito Sans", sans-serif;
   --headingFont: "Montserrat", sans-serif;
-  --tobbarFont: "DM Sans", sans-serif;
-  --paraFont: "Poppins", sans-serif;
-  --innerBoxFont: "Nunito Sans", sans-serif;
+  --paraFont: "Nunito Sans", sans-serif;
 }
 
 /*==============================
@@ -146,12 +141,34 @@ button:focus {
     -o-transform: translateY(-50%);
     z-index: 10;
 }
+.tf_section_heading h3 span {
+  display: block;
+  width: 772px;
+  text-align: center;
+  font-family: var(--headingFont);
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px rgba(9, 9, 25, 0.078);
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
 .tf_section_heading h2 {
     color: var(--colorBlack);
     font-family: var(--headingFont);
     font-size: 44px;
     font-weight: 700;
     line-height: 60px;
+    padding-top: 10px;
 }
 
 .tf__common_btn {
@@ -187,7 +204,7 @@ button:focus {
 .tf__contact a {
   color: var(--colorWhite);
   font-size: 16px;
-  font-family: var(--tobbarFont);
+  font-family: var(--paraFont);
 }
 .tf__contact a i {
   color: var(--colorWhite);
@@ -198,9 +215,10 @@ button:focus {
 .tf__social ol,
 .tf__social ul {
   display: flex;
-  gap: 15px;
+  gap: 30px;
   align-items: center;
   justify-content: end;
+  margin-top: 2px;
 }
 .tf__social ol li,
 .tf__social ul li {
@@ -208,7 +226,7 @@ button:focus {
 .tf__social ol li a,
 .tf__social ul li a {
   color: var(--colorWhite);
-  font-size: 20px;
+  font-size: 16px;
 }
 /* header end */
 
@@ -241,6 +259,11 @@ button:focus {
   background: var(--colorPrimary);
   color: var(--colorWhite);
   padding: 10px;
+}
+.tf__right_buttons .tf__cart img,
+.tf__right_buttons .tf__search img{
+  width: 20px !important;
+  height: 20px !important;
 }
 .tf__right_buttons .tf__login {
   color: var(--colorWhite);
@@ -434,6 +457,7 @@ button:focus {
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 30px;
+    padding-right: 30px;
 }
 
 .tf__about_img_box .tf__small_img {
@@ -604,6 +628,76 @@ button:focus {
 
 /* about end */
 
+
+/* features start */
+.tf__features {
+    background: url(../images/Features-BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tf__features .tf_section_heading {
+  text-align: center;
+}
+.tf__feature_item {
+    background: url(../images/Features-itemBG.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding: 40px 34px 37px;
+    border: 1px solid var(--colorLineBG);
+    box-shadow: 0px 4px 15px 0px var(--colorLineBG);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 24px;
+}
+.tf__feature_item .tf__icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--colorPrimary);
+    padding: 15px;
+}
+
+.tf__feature_item .tf__content a {
+    color: var(--colorBlack);
+    font-family: var(--headingFont);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 26px;
+    padding-bottom: 12px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+.tf__feature_item .tf__content a:hover {
+  color: var(--colorPrimary);
+}
+.tf__feature_item .tf__content p {
+    color: var(--paraColor);
+    font-family: var(--paraFont);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* features end */
+
+
+
+
 /* footer start */
 footer {
   background: var(--colorBlack);
@@ -709,7 +803,7 @@ footer {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  font-family: var(--tobbarFont);
+  font-family: var(--paraFont);
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
   -moz-transition: all linear 0.3s;
