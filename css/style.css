@@ -296,10 +296,102 @@ button:focus {
   right: 75px;
 }
 
+.tf__breadcrumb {
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.tf__breadcrumb_overlay {
+  background: #090919a8;
+  padding: 150px 0px 152px 0px;
+}
+
+.tf__breadcrumb_text h1 {
+  color: var(--colorWhite);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.tf__breadcrumb_text ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tf__breadcrumb_text ul li a {
+  color: var(--colorWhite);
+  font-family: var(--headingFont);
+  font-size: 18px;
+  font-weight: 500;
+  padding-right: 25px;
+  margin-right: 25px;
+  position: relative;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+
+.tf__breadcrumb_text ul li:last-child a {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.tf__breadcrumb_text ul li:last-child a::after {
+  display: none;
+}
+
+.tf__breadcrumb_text ul li a:hover {
+  color: var(--colorPrimary);
+}
+
+.tf__breadcrumb_text ul li a::after {
+  position: absolute;
+  content: "\f054";
+  font-family: "font awesome 5 free";
+  font-weight: 600;
+  font-size: 13px;
+  top: 4px;
+  right: -4px;
+}
+
+.tf__pagination ul {
+  justify-content: center;
+}
+
+.tf__pagination ul li a {
+  border: 2px solid rgba(9, 9, 25, 0.10);
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50% !important;
+  color: var(--colorBlack);
+  font-family: var(--headingFont);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 0px 10px;
+  transition: all linear .3s;
+}
+
+.tf__pagination ul li a:hover,
+.tf__pagination ul li a.active {
+  background: var(--colorPrimary);
+  border-color: var(--colorPrimary);
+  color: var(--colorWhite);
+}
 
 /*==============================
   GLOBAL CSS END
 =============================*/
+
 
 /*==============================
   HOME PAGE START
@@ -1404,6 +1496,7 @@ header {
   position: relative;
   text-align: center;
   overflow: hidden;
+  border: 1px solid rgba(9, 9, 25, 0.10);
   z-index: 1;
   transition: all linear .3s;
   -webkit-transition: all linear .3s;
@@ -2023,8 +2116,6 @@ footer {
   background: var(--colorPrimary);
 }
 
-.tf__copy {}
-
 .tf__copy p {
   color: rgba(255, 255, 255, 0.70);
 }
@@ -2099,6 +2190,29 @@ footer {
 }
 
 /* scroll button end */
+
+/*==============================
+  HOME PAGE END
+=============================*/
+
+
+/*==============================
+  SERVICES PAGE START
+=============================*/
+
+
+
+
+
+
+
+
+
+/*==============================
+  SERVICES PAGE END
+=============================*/
+
+
 
 /*==============================
   START
