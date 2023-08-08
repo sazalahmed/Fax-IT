@@ -156,10 +156,24 @@ $(function () {
     });
 
 
+    //========STICKY SIDEBAR=======
+    $("#sticky_sidebar").stickit({
+        top: 100,
+    })
 
 
+    //====BARFILLER JS========
+    $(document).ready(function () {
+        $('#bar1').barfiller();
+        $('#bar2').barfiller();
+        $('#bar3').barfiller();
+        $('#bar4').barfiller();
+    });
 
-
+    //=======SELECT2====== 
+    $(document).ready(function () {
+        $('.select_2').select2();
+    });
 
 
 });

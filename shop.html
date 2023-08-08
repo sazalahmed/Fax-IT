@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/venobox.min.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
 
     <link rel="stylesheet" href="css/spacing.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -149,10 +150,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="tf__breadcrumb_text">
-                            <h1>Our Project</h1>
+                            <h1> Our Shop</h1>
                             <ul>
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Our Project</a></li>
+                                <li><a href="#"> Our Shop</a></li>
                             </ul>
                         </div>
                     </div>
@@ -166,128 +167,263 @@
 
 
     <!--==============================
-        PROJECTS PAGE START
+        SHOP START
     ===============================-->
-    <section class="tf__projects_page pt_95 xs_pt_55 pb_120 xs_pb_80">
+    <section class="tf__shop pt_120 xs_pt_80 pb_120 xs_pb_80">
         <div class="container">
+            <div class="tf__shop_filter">
+                <div class="row">
+                    <div class="col-xl-3">
+                        <input type="text" placeholder="Product name">
+                    </div>
+                    <div class="col-xl-3">
+                        <select class="select_2" name="state">
+                            <option value="AL">Select Categories</option>
+                            <option value="">Web Design</option>
+                            <option value="">PHP With Laravel</option>
+                            <option value="">React JS</option>
+                            <option value="">Mern</option>
+                            <option value="">UI/UX</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-3">
+                        <select class="select_2" name="state">
+                            <option value="AL">Select Type</option>
+                            <option value="">Web Design</option>
+                            <option value="">PHP With Laravel</option>
+                            <option value="">React JS</option>
+                            <option value="">Mern</option>
+                            <option value="">UI/UX</option>
+                        </select>
+                    </div>
+                    <div class="col-xl-3">
+                        <button type="submit" class="tf__common_btn">search</button>
+                    </div>
+                </div>
+            </div>
             <div class="row">
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_1.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_1.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_2.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_2.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_3.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_3.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_4.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_4.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_5.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_5.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_6.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_6.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_7.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_7.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_5.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_8.jpg" alt="shop" class="img-fluid w-100">
+                        </div>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_1.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                <div class="col-xl-4">
+                    <div class="tf__single_shop">
+                        <div class="tf__single_shop_img">
+                            <img src="images/shop_img_9.jpg" alt="shop" class="img-fluid w-100">
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_2.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_3.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="tf__project_item">
-                        <img src="images/project_img_4.jpg" alt="project" class="img-fluid w-100">
-                        <div class="tf__project_item_text">
-                            <span>web design</span>
-                            <h3>How Technology Made Businesses</h3>
-                            <a href="#">Read More <i class="fal fa-long-arrow-right"></i></a>
+                        <div class="tf__single_shop_text">
+                            <div class="header d-flex flex-wrap justify-content-between">
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <b>(5.0)</b>
+                                </p>
+                                <span>$45.00</span>
+                            </div>
+                            <a class="title" href="#">Service Top - Professional Service Selling Marketplace</a>
+                            <ul class="d-flex flex-wrap justify-content-between">
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -312,7 +448,7 @@
         </div>
     </section>
     <!--==============================
-        PROJECTS PAGE END
+        SHOP END
     ===============================-->
 
 
@@ -477,6 +613,8 @@
     <script src="js/isotope.pkgd.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/sticky_sidebar.js"></script>
+    <script src="js/select2.min.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
