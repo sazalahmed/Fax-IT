@@ -20,6 +20,7 @@ $(function () {
 
     //===venobox js===
     $('.venobox').venobox();
+    $('.service').venobox();
 
 
     //======menu search js======
@@ -173,6 +174,19 @@ $(function () {
     //=======SELECT2====== 
     $(document).ready(function () {
         $('.select_2').select2();
+    });
+
+
+    //=========TEAM SLIDER=========   
+    $('.tf__home_2_banner_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
     });
 
 
