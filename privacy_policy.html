@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/venobox.min.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/animated_barfiller.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
 
     <link rel="stylesheet" href="css/spacing.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -82,37 +84,45 @@
                         <a class="nav-link active" aria-current="page" href="#">Home +</a>
                         <ul class="droap_menu">
                             <li><a href="index.html">Home page 1</a></li>
-                            <li><a href="index2.html">Home page 2</a></li>
+                            <li><a href="index_2.html">Home page 2</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Page +</a>
                         <ul class="droap_menu">
-                            <li><a href="#">page 1</a></li>
-                            <li><a href="#">page 2</a></li>
-                            <li><a href="#">page 3</a></li>
-                            <li><a href="#">page 4</a></li>
-                            <li><a href="#">page 5</a></li>
-                            <li><a href="#">page 6</a></li>
+                            <li><a href="404.html">404</a></li>
+                            <li><a href="blog_details.html">blog details</a></li>
+                            <li><a href="faqs.html">faq</a></li>
+                            <li><a href="forgot_password.html">forgot password</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="privacy_policy.html">privacy policy</a></li>
+                            <li><a href="terms_condition.html">terms and Condition</a></li>
+                            <li><a href="projects.html">project</a></li>
+                            <li><a href="project_details.html">project details</a></li>
+                            <li><a href="service_details.html">service details</a></li>
+                            <li><a href="shop_details.html">shop details</a></li>
+                            <li><a href="sign_up.html">sign up</a></li>
+                            <li><a href="team.html">team</a></li>
+                            <li><a href="team_details.html">team details</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <div class="tf__right_menu d-flex flex-wrap">
+                <ul class="tf__right_menu d-flex flex-wrap">
                     <li>
                         <span>
                             <img src="./images/cart.svg" alt="cart-icon" class="img-fluid w-100">
@@ -123,8 +133,8 @@
                             <img src="./images/search.svg" alt="search-icon" class="img-fluid w-100">
                         </span>
                     </li>
-                    <li><a href="#">Login</a></li>
-                </div>
+                    <li><a href="sign_in.html">Login</a></li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -138,7 +148,6 @@
     <!--============================
         MENU END
     =============================-->
-
 
     <!--============================
         BREADCRUMB START
@@ -254,7 +263,7 @@
                     <div class="tf__footer_contact">
                         <h4>Call Us</h4>
                         <p>
-                            <a href="tel:+1256- 568-00065">+1256- 568-00065</a>
+                            <a href="callto:+125656800065">+1256- 568-00065</a>
                         </p>
                     </div>
                 </div>
@@ -286,12 +295,12 @@
                     <div class="col-lg-3">
                         <div class="tf__footer_content xs_mb_20">
                             <a href="index.html" class="footer_logo">
-                                <img src="./images/Footer-logo.png" alt="Fax-IT" class="img-fluid w-100" />
+                                <img src="images/Footer-logo.png" alt="TechnoSoft" class="img-fluid w-100" />
                             </a>
                             <p class="footer_description pt_40 sm_pt_20 sm_pb_20">
-                                Interdum erat diam nisi integer eget morbi urna nam platea
-                                inceptos Pede fusce laoreet diam proin litora aliquam risus
-                                mus.
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor est sapiente libero cum,
+                                repellat ut debitis temporibus eveniet tempore enim praesentium ducimus eius harum quam,
+                                corporis deserunt.
                             </p>
                         </div>
                     </div>
@@ -322,7 +331,7 @@
                     <div class="col-lg-3 col-md-5">
                         <div class="tf__footer_content pl_35 xs_pl_0 sm_pl_0 ">
                             <h3>Newsletter</h3>
-                            <p class="pt_10 pb_20 xs_pt_0">
+                            <p class="pb_20">
                                 Lorem Ipsum is simply dummy text of printing and industry.
                             </p>
                             <form action="#">
@@ -330,7 +339,7 @@
                                     <input type="email" placeholder="Email address" />
                                     <span><i class="fas fa-envelope"></i></span>
                                 </div>
-                                <input class="mt_25" type="submit" value="Subscribe" />
+                                <button class="mt_25" type="submit">Subscribe</button>
                             </form>
                         </div>
                     </div>
@@ -393,10 +402,20 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="js/Font-Awesome.js"></script>
+    <!--venobox js-->
     <script src="js/venobox.min.js"></script>
+    <!--isotope js-->
     <script src="js/isotope.pkgd.min.js"></script>
+    <!--slick js-->
     <script src="js/slick.min.js"></script>
+    <!--jquery.marquee js-->
     <script src="js/jquery.marquee.min.js"></script>
+    <!--animated_barfiller js-->
+    <script src="js/animated_barfiller.js"></script>
+    <!--sticky_sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!--select2 js-->
+    <script src="js/select2.min.js"></script>
 
     <!--main/custom js-->
     <script src="js/main.js"></script>
