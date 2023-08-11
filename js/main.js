@@ -2,8 +2,7 @@ $(function () {
 
     "use strict";
 
-
-    //=========MENU FIX JS=========   
+    //=======MENU FIX JS=======   
     if ($('.main_menu').offset() != undefined) {
         var navoff = $('.main_menu').offset().top;
         $(window).scroll(function () {
@@ -18,12 +17,12 @@ $(function () {
     }
 
 
-    //===venobox js===
+    //===== VENOBOX JS ======
     $('.venobox').venobox();
     $('.service').venobox();
 
 
-    //======menu search js======
+    //====== MENU SEARCH JS======
     $(".search_icon").on("click", function () {
         $(".menu_search").addClass("show_search");
     });
@@ -33,7 +32,7 @@ $(function () {
     });
 
 
-    //*==========ISOTOPE==============
+    //*==========ISOTOPE JS==============
     var $grid = $('.grid').isotope({});
 
     $('.tf__projects_filter').on('click', 'button', function () {
@@ -52,7 +51,7 @@ $(function () {
     });
 
 
-    //=========main.js=========   
+    //========= COUNTER UP JS =========   
     $('.counter').countUp();
 
 
@@ -141,7 +140,7 @@ $(function () {
     });
 
 
-    //====SCROLL BUTTON========  
+    //==== SCROLL BUTTON ========  
     $('.scroll_btn').on('click', function () {
         $('html, body').animate({
             scrollTop: 0,
@@ -161,13 +160,13 @@ $(function () {
     });
 
 
-    //========STICKY SIDEBAR=======
+    //======== STICKY SIDEBAR =======
     $("#sticky_sidebar").stickit({
         top: 100,
     })
 
 
-    //====BARFILLER JS========
+    //====== BARFILLER JS ========
     $(document).ready(function () {
         $('#bar1').barfiller();
         $('#bar2').barfiller();
@@ -175,17 +174,17 @@ $(function () {
         $('#bar4').barfiller();
     });
 
-    //=======SELECT2====== 
+    //======= SELECT2 ======== 
     $(document).ready(function () {
         $('.select_2').select2();
     });
 
 
-    //=========HOME 2 BANNER SLIDER=========   
+    //========= HOME 2 BANNER SLIDER =========   
     $('.tf__home_2_banner_slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         dots: false,
         arrows: true,
@@ -194,7 +193,7 @@ $(function () {
     });
 
 
-    //=========HOME 2 TESTIMONIAL SLIDER=========   
+    //========= HOME 2 TESTIMONIAL SLIDER =========   
     $('.home_2_team_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -253,7 +252,7 @@ $(function () {
     });
 
 
-    //=========SERVICE 2 SLIDER=========   
+    //========= SERVICE 2 SLIDER =========   
     $('.service_2_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -313,5 +312,8 @@ $(function () {
         ]
     });
 
+
+    //====== WOW JS =======
+    new WOW().init();
 
 });
