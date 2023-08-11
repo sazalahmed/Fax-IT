@@ -185,7 +185,7 @@ $(function () {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         dots: false,
         arrows: true,
         nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
@@ -193,7 +193,7 @@ $(function () {
     });
 
 
-    //========= HOME 2 TESTIMONIAL SLIDER =========   
+    //====== HOME 2 TESTIMONIAL SLIDER ======   
     $('.home_2_team_slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
