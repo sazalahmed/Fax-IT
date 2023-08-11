@@ -52,6 +52,10 @@ $(function () {
     });
 
 
+    //=========main.js=========   
+    $('.counter').countUp();
+
+
     //=========TEAM SLIDER=========   
     $('.team_slider').slick({
         slidesToShow: 4,
@@ -189,6 +193,7 @@ $(function () {
         prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
     });
 
+
     //=========HOME 2 TESTIMONIAL SLIDER=========   
     $('.home_2_team_slider').slick({
         slidesToShow: 3,
@@ -248,6 +253,65 @@ $(function () {
     });
 
 
+    //=========SERVICE 2 SLIDER=========   
+    $('.service_2_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false,
+                }
+            }
+        ]
+    });
 
 
 });
