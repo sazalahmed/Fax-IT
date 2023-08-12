@@ -68,47 +68,27 @@ $(function () {
 
         responsive: [
             {
-                breakpoint: 1400,
-                settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
-                }
-            },
-            {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
                     arrows: false,
                 }
             }
@@ -126,6 +106,14 @@ $(function () {
         arrows: true,
         nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
         prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -315,5 +303,11 @@ $(function () {
 
     //====== WOW JS =======
     new WOW().init();
+
+
+    //======MOBILE MENU BUTTON=======
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
+    });
 
 });

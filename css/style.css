@@ -358,7 +358,7 @@ button:focus {
 
 .tf__breadcrumb_overlay {
   background: #090919a8;
-  padding: 150px 0px 152px 0px;
+  padding: 150px 0px 148px 0px;
 }
 
 .tf__breadcrumb_text h1 {
@@ -506,6 +506,8 @@ header {
 .main_menu {
   width: 100%;
   height: 90px;
+  position: relative;
+  z-index: 999;
 }
 
 .main_menu .navbar-brand {
@@ -586,7 +588,6 @@ header {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  border: 1px solid #FFF2F2;
 }
 
 .main_menu .tf__right_menu li a {
@@ -1672,7 +1673,7 @@ header {
 }
 
 .tf__service_item:hover p {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /* services end */
