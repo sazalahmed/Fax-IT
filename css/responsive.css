@@ -1,5 +1,12 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .tf__sing_in_img {
+    width: 600px;
+    height: 560px;
+    right: 0;
+  }
+}
 
+@media (min-width: 1200px) and (max-width: 1399.99px) {
   /*==============================
     HOME PAGE START
   =============================*/
@@ -73,7 +80,6 @@
     HOME PAGE END
   =============================*/
 
-
   /*==============================
     404 PAGE START
   =============================*/
@@ -85,8 +91,174 @@
     404 PAGE END
   =============================*/
 
+  /*==============================
+    BLOG DETAILS START
+  ==============================*/
+  .tf__single_comment_text {
+    width: 84%;
+  }
 
+  .comment_reply .tf__single_comment_text {
+    width: 83%;
+  }
 
+  .tf__shop_details_img,
+  .tf__blog_details_img,
+  .tf__services_details_img,
+  .tf__projects_details_img {
+    height: 450px;
+  }
+
+  .tf__comment_area h2,
+  .tf__comment_input_area h2 {
+    font-size: 28px;
+  }
+
+  .tf__sidebar h3 {
+    font-size: 20px;
+  }
+
+  .tf__sidebar_category ul li a {
+    font-size: 16px;
+  }
+
+  .tf__sidebar_post ul li .img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .tf__sidebar_post ul li .text p {
+    margin-bottom: 8px;
+  }
+
+  .tf__sidebar_post ul li .text {
+    width: 70%;
+  }
+
+  .tf__sidebar_post ul li .text a {
+    font-size: 16px;
+  }
+
+  /*==============================
+    BLOG DETAILS END
+  ==============================*/
+
+  .tf__cart_view .tf__common_btn {
+    min-width: 450px;
+  }
+
+  /*==============================
+    SIGN IN START
+  ==============================*/
+  .tf__sing_in_img {
+    width: 530px;
+    height: 500px;
+    right: 0;
+  }
+
+  .tf__sing_in_text {
+    padding: 30px;
+  }
+
+  /*==============================
+    SIGN IN END
+  ==============================*/
+
+  .tf__single_payment {
+    height: 90px;
+  }
+
+  .sidebar_project_info .link li a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .related_project .tf__project_item {
+    height: 320px;
+  }
+
+  /*==============================
+    SERVICE DETAILS START
+  ==============================*/
+  .tf__sidebar_contact .text {
+    padding: 25px;
+  }
+
+  .tf__sidebar_contact .text h4 {
+    font-size: 38px;
+  }
+
+  .tf__sidebar_contact {
+    height: 400px;
+  }
+
+  /*==============================
+    SERVICE DETAILS END
+  ==============================*/
+
+  .tf__single_shop_img {
+    height: 210px;
+  }
+
+  /*==============================
+    HOME PAGE 2 START
+  ==============================*/
+  .tf__home_2_banner_text h1 {
+    font-size: 54px;
+  }
+
+  .home_2 .tf__about_img_box .tf__main_img {
+    width: auto;
+    padding-left: 115px;
+  }
+
+  .tf__home_2_about_counter {
+    gap: 70px;
+  }
+
+  .tf__home_2_service_item .tf__text {
+    padding: 15px 20px 20px 20px;
+  }
+
+  .tf__home_2_service_item .tf__text .tf__link {
+    font-size: 20px;
+  }
+
+  .tf__home_2_video_content h2 {
+    font-size: 52px;
+  }
+
+  .tf_home_2_single_team {
+    padding: 75px 30px 30px 30px;
+  }
+
+  .home_2 .tf__footer_gallery li {
+    width: 80px;
+    height: 80px;
+  }
+
+  .tf__footer_content .social_link li a {
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+  }
+
+  .tf__home_2_team_item .tf__text {
+    padding: 50px 20px 20px 20px;
+  }
+
+  .tf__home_2_team_item .tf__text a.tf_link {
+    font-size: 22px;
+  }
+
+  .tf__project_item {
+    height: 315px;
+  }
+
+  /*==============================
+    HOME PAGE 2 END
+  ==============================*/
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -202,7 +374,6 @@
     HOME PAGE END
   =============================*/
 
-
   /*==============================
     404 PAGE START
   =============================*/
@@ -214,13 +385,223 @@
     404 PAGE END
   =============================*/
 
+  /*==============================
+    BLOG DETAILS START
+  ==============================*/
+  .tf__shop_details_img,
+  .tf__blog_details_img,
+  .tf__services_details_img,
+  .tf__projects_details_img {
+    height: 400px;
+  }
 
+  .tf__shop_details_text h2,
+  .tf__services_details_text h2,
+  .tf__blog_details_text h2,
+  .tf__projects_details_text h2 {
+    font-size: 32px;
+  }
 
+  .blog_details_center_img {
+    height: 410px;
+  }
 
+  .tf__comment_area h2,
+  .tf__comment_input_area h2 {
+    font-size: 28px;
+  }
 
+  .tf__single_comment_img {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+  }
+
+  .tf__single_comment_text {
+    padding: 20px;
+    width: 84%;
+  }
+
+  .comment_reply .tf__single_comment_text {
+    width: 83%;
+  }
+
+  .tf__sidebar h3 {
+    font-size: 20px;
+  }
+
+  .tf__sidebar_category ul li a {
+    font-size: 15px;
+  }
+
+  .tf__sidebar_post ul li .img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  .tf__sidebar_post ul li .text {
+    width: 69%;
+  }
+
+  .tf__sidebar_post ul li .text p {
+    margin-bottom: 5px;
+  }
+
+  .tf__sidebar_post ul li .text a {
+    font-size: 16px;
+  }
+
+  /*==============================
+    BLOG DETAILS END
+  ==============================*/
+
+  .tf__cart_view .tf__common_btn {
+    min-width: 400px;
+  }
+
+  /*==============================
+    SIGN IN START
+  ==============================*/
+  .tf__sing_in_img {
+    display: none;
+  }
+
+  /*==============================
+    SIGN IN END
+  ==============================*/
+
+  .tf__single_payment {
+    height: 115px;
+  }
+
+  /*==============================
+    BLOG DETAILS START
+  ==============================*/
+  .pro_det_center_img {
+    height: 350px;
+  }
+
+  .sidebar_project_info {
+    padding: 20px;
+  }
+
+  .sidebar_project_info h2 {
+    font-size: 20px;
+  }
+
+  .sidebar_project_info .list li span {
+    font-size: 16px;
+  }
+
+  .sidebar_project_info .link li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  /*==============================
+    BLOG DETAILS END
+  ==============================*/
+
+  .tf__project_item {
+    height: 340px;
+  }
+
+  /*==============================
+    SERVICE DETAILS START
+  ==============================*/
+  .tf__sidebar_contact .text {
+    padding: 25px;
+  }
+
+  .tf__sidebar_contact .text h4 {
+    font-size: 38px;
+  }
+
+  .tf__sidebar_contact {
+    height: 400px;
+  }
+
+  /*==============================
+    SERVICE DETAILS END
+  ==============================*/
+
+  .tf__shop_details_header h2 {
+    font-size: 32px;
+  }
+
+  /*==============================
+    HOME PAGE 2 START
+  ==============================*/
+  .tf__home_2_banner_text h1 {
+    font-size: 44px;
+  }
+
+  .tf__home_2_banner_slider .tf__slide_item {
+    height: auto;
+  }
+
+  .tf__home_2_banner_image {
+    height: auto;
+    margin-top: 160px;
+  }
+
+  .tf__home_2_banner_text {
+    height: auto;
+    margin-top: 125px;
+  }
+
+  .home_2 .tf__about_img_box .tf__main_img {
+    width: 100%;
+    padding-left: 60px;
+  }
+
+  .home_2 .tf__about_img_box .tf__support_img {
+    position: absolute;
+  }
+
+  .tf__home_2_about_counter {
+    gap: 50px;
+  }
+
+  .tf__home_2_about_counter h4,
+  .tf__home_2_about_counter h4 span {
+    font-size: 30px;
+  }
+
+  .tf__home_2_service_item .tf__text .tf__link {
+    font-size: 20px;
+  }
+
+  .tf__home_2_video_content h2 {
+    font-size: 38px;
+    line-height: 58px;
+  }
+
+  .tf__home_2_subscribe .tf__text h3 {
+    font-size: 38px;
+  }
+
+  .home_2 .tf__footer_gallery li {
+    width: 65px;
+    height: 65px;
+  }
+
+  .tf__footer_content .social_link li a {
+    width: 35px;
+    height: 35px;
+    line-height: 37px;
+  }
+
+  .tf__home_2_service_item .tf__text {
+    padding: 20px 25px 25px 25px;
+  }
+
+  /*==============================
+    HOME PAGE 2 END
+  ==============================*/
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991.98px) {
 
@@ -342,7 +723,6 @@
 
   .testimonial_slider {
     margin-top: 25px;
-    /*! padding: 0px 20px; */
   }
 
   .testimonial_slider::after {
@@ -429,7 +809,6 @@
     HOME PAGE END
   =============================*/
 
-
   /*==============================
     404 PAGE START
   =============================*/
@@ -441,11 +820,326 @@
     404 PAGE END
   =============================*/
 
+  /*==============================
+    BLOG DETAILS START
+  =============================*/
+  .tf__shop_details_img,
+  .tf__blog_details_img,
+  .tf__services_details_img,
+  .tf__projects_details_img {
+    height: 400px;
+  }
+
+  .tf__shop_details_text h2,
+  .tf__services_details_text h2,
+  .tf__blog_details_text h2,
+  .tf__projects_details_text h2 {
+    font-size: 32px;
+  }
+
+  .tf__single_comment_text {
+    width: 83%;
+  }
+
+  .tf__single_comment_text h3 {
+    font-size: 16px;
+  }
+
+  .comment_reply .tf__single_comment_text {
+    width: 82%;
+  }
+
+  .tf__comment_area h2,
+  .tf__comment_input_area h2 {
+    font-size: 24px;
+  }
+
+  .tf__blog_details_content {
+    margin-bottom: 50px;
+  }
+
+  .tf__common_btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .tf__sidebar h3 {
+    font-size: 22px;
+  }
+
+  .tf__sidebar_category ul li a {
+    font-size: 16px;
+  }
+
+  .tf__sidebar_post ul li .text a {
+    font-size: 16px;
+  }
+
+  .tf__sidebar_post ul li .text p {
+    margin-bottom: 5px;
+  }
+
+  .tf__sidebar_post ul li .text {
+    width: 82%;
+  }
 
 
+  .blog_details_center_img {
+    height: 460px;
+  }
+
+  /*==============================
+    BLOG DETAILS END
+  ==============================*/
+
+  /*==============================
+    CART VIEW START
+  ==============================*/
+  .tf__cart_view .tf__common_btn {
+    min-width: 60%;
+  }
+
+  /*==============================
+    CART VIEW END
+  ==============================*/
+
+  /*==============================
+    SIGN IN START
+  ==============================*/
+  .tf__sing_in_img {
+    display: none;
+  }
+
+  /*==============================
+    SIGN IN END
+  ==============================*/
+
+  .tf__single_payment {
+    height: 115px;
+  }
+
+  .tf__privacy_policy_text h1,
+  .tf__privacy_policy_text h2 {
+    font-size: 32px;
+  }
+
+  .details_next_preview {
+    margin-bottom: 25px;
+  }
+
+  .related_project h2 {
+    font-size: 32px;
+  }
+
+  .pro_det_center_img {
+    height: 400px;
+  }
+
+  /*==============================
+    SERVICE DETAILS START
+  ==============================*/
+  .details_aacordian {
+    margin-bottom: 50px;
+  }
+
+  .tf__sidebar_contact .text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(9, 9, 25, 0.70);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+  }
+
+  /*==============================
+    SERVICE DETAILS END
+  ==============================*/
+
+  .tf__shop_details_header h2 {
+    font-size: 32px;
+  }
+
+  /*==============================
+    SHOP PAGE START
+  ==============================*/
+  .tf__shop_filter .select2-container--default .select2-selection--single {
+    margin-bottom: 20px;
+  }
+
+  .tf__shop_filter input {
+    margin-bottom: 20px;
+  }
+
+  .tf__shop_filter button {
+    padding: 15px 20px;
+  }
+
+  .tf__single_shop_img {
+    height: 210px;
+  }
+
+  .tf__single_shop_text {
+    padding: 20px;
+  }
+
+  /*==============================
+    SHOP PAGE END
+  ==============================*/
+
+  /*==============================
+    TEAM DETAILS START
+  ==============================*/
+  .tf_team_detils_img {
+    height: 730px;
+  }
+
+  .tf_team_detils_text h2 {
+    margin-top: 25px;
+  }
+
+  /*==============================
+    TEAM DETAILS END
+  ==============================*/
+
+  /*==============================
+    HOME PAGE 2 START
+  ==============================*/
+  .tf__get_a_quote {
+    background: var(--colorWhite);
+    position: relative;
+    top: -1px;
+    border-bottom: 1px solid var(--colorPrimary);
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .tf__home_2_banner_text {
+    height: auto;
+  }
+
+  .tf__home_2_banner_text h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .tf__home_2_banner_text .tf__content {
+    padding-top: 150px;
+  }
+
+  .tf__home_2_banner_image {
+    height: auto;
+    margin: 0 auto;
+    width: 350px;
+  }
+
+  .tf__home_2_banner_text p {
+    width: 70%;
+  }
+
+  .home_2 .tf__about_img_box .tf__main_img {
+    width: 100%;
+    padding-left: 0;
+    height: auto;
+  }
+
+  .home_2 .tf__about_img_box .tf__support_img {
+    bottom: -75px;
+  }
+
+  .home_2 .tf__about_img_box {
+    padding-right: 0;
+  }
+
+  .tf__home_2_about_counter {
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .tf__home_2_about_counter .tf__counter_item {
+    margin: 0;
+  }
+
+  .tf__home_2_about_counter p {
+    font-size: 12px;
+  }
+
+  .tf__home_2_about_counter h4,
+  .tf__home_2_about_counter h4 span {
+    font-size: 32px;
+  }
+
+  .tf__counter_item {
+    margin-top: 50px;
+  }
+
+  .tf__home_2_about_counter h4 {
+    justify-content: center;
+  }
+
+  .tf__home_2_about_counter p {
+    text-align: center;
+  }
+
+  .tf__home_2_services::after {
+    display: none;
+  }
+
+  .tf__home_2_video_content h2 {
+    font-size: 40px;
+    line-height: 56px;
+    padding: 15px;
+  }
+
+  .tf_home_2_single_team .tf__item_bottom {
+    display: block;
+  }
+
+  .tf__home_2_subscribe .tf__text h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .tf__home_2_subscribe .tf__form form input {
+    padding: 19px 30px;
+  }
+
+  .home_2 .tf__footer_body {
+    padding-top: 200px !important;
+  }
+
+  .home_2 .tf__footer_right_bottom ul {
+    gap: 4px;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .home_2 .tf__footer_right_bottom ul li a {
+    font-size: 16px;
+  }
+
+  .tf__home_2_team_item .tf__text {
+    padding: 45px 20px 20px 20px;
+  }
+
+  .tf__home_2_counter_item {
+    padding: 20px 20px;
+  }
+
+  .tf__home_2_banner_slider .tf__slide_item {
+    height: auto;
+  }
+
+  /*==============================
+    HOME PAGE 2 END
+  ==============================*/
 }
-
-
 
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -560,7 +1254,7 @@
   }
 
   .tf_section_heading h2 {
-    font-size: 26px;
+    font-size: 28px;
     line-height: initial;
   }
 
@@ -586,7 +1280,6 @@
 
   .testimonial_slider {
     margin-top: 25px;
-    /*! padding: 0px 20px; */
   }
 
   .testimonial_slider::after {
@@ -666,7 +1359,6 @@
     HOME PAGE END
   =============================*/
 
-
   /*==============================
     404 PAGE START
   =============================*/
@@ -691,10 +1383,335 @@
     404 PAGE END
   =============================*/
 
+  /*==============================
+    BLOG DETAILS START
+  =============================*/
+  .tf__shop_details_img,
+  .tf__blog_details_img,
+  .tf__services_details_img,
+  .tf__projects_details_img {
+    height: 350px;
+  }
 
+  .tf__shop_details_text h2,
+  .tf__services_details_text h2,
+  .tf__blog_details_text h2,
+  .tf__projects_details_text h2 {
+    font-size: 28px;
+  }
+
+  .blog_details_share li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .tf__single_comment_text {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .tf__single_comment_img {
+    margin-bottom: 10px;
+  }
+
+  .tf__single_comment_text h3 {
+    font-size: 16px;
+  }
+
+  .comment_reply {
+    margin-left: 0;
+  }
+
+  .comment_reply .tf__single_comment_text {
+    width: 100%;
+  }
+
+  .tf__comment_area h2,
+  .tf__comment_input_area h2 {
+    font-size: 24px;
+  }
+
+  .tf__blog_details_content {
+    margin-bottom: 50px;
+  }
+
+  .tf__common_btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .tf__sidebar h3 {
+    font-size: 22px;
+  }
+
+  .tf__sidebar_category ul li a {
+    font-size: 16px;
+  }
+
+  .tf__sidebar_post ul li .img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .tf__sidebar_post ul li .text a {
+    font-size: 16px;
+  }
+
+  .tf__sidebar_post ul li .text p {
+    margin-bottom: 5px;
+  }
+
+  .tf__sidebar_post ul li .text {
+    width: 80%;
+  }
+
+  .blog_det_header li i {
+    margin-right: 5px;
+  }
+
+  .blog_det_header li {
+    margin-right: 20px;
+  }
+
+  .blog_details_center_img {
+    height: auto;
+  }
+
+  /*==============================
+    BLOG DETAILS END
+  ==============================*/
+
+  /*==============================
+    CART VIEW START
+  ==============================*/
+  .tf__cart_view .tf__common_btn {
+    min-width: 100%;
+  }
+
+  /*==============================
+    CART VIEW END
+  ==============================*/
+
+  /*==============================
+    SIGN IN START
+  ==============================*/
+  .tf__sing_in_img {
+    display: none;
+  }
+
+  .tf__sing_in_text {
+    padding: 30px;
+  }
+
+  .tf__sing_in_text ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /*==============================
+    SIGN IN END
+  ==============================*/
+
+  .tf__single_payment {
+    height: 130px;
+  }
+
+  .tf__privacy_policy_text h1,
+  .tf__privacy_policy_text h2 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+
+  .details_next_preview {
+    margin-bottom: 25px;
+  }
+
+  .related_project h2 {
+    font-size: 26px;
+  }
+
+  .pro_det_center_img {
+    height: 330px;
+  }
+
+  /*==============================
+    SERVICE DETAILS START
+  ==============================*/
+  .tf__services_details_text span {
+    padding: 30px;
+  }
+
+  .details_aacordian {
+    margin-bottom: 50px;
+  }
+
+  /*==============================
+    SERVICE DETAILS END
+  ==============================*/
+
+  /*==============================
+    SHOP DETAILS START
+  ==============================*/
+  .tf__shop_details_header h2 {
+    font-size: 28px;
+  }
+
+  /*==============================
+    SHOP DETAILS END
+  ==============================*/
+
+  /*==============================
+    SHOP PAGE START
+  ==============================*/
+  .tf__shop_filter .select2-container--default .select2-selection--single {
+    margin-bottom: 20px;
+  }
+
+  .tf__shop_filter input {
+    margin-bottom: 20px;
+  }
+
+  /*==============================
+    SHOP PAGE END
+  ==============================*/
+
+  /*==============================
+    TEAM DETAILS START
+  ==============================*/
+  .tf_team_detils_img {
+    height: 550px;
+  }
+
+  .tf_team_detils_text h2 {
+    margin-top: 25px;
+  }
+
+  /*==============================
+    TEAM DETAILS END
+  ==============================*/
+
+  /*==============================
+    HOME PAGE 2 START
+  ==============================*/
+  .tf__get_a_quote {
+    background: var(--colorWhite);
+    position: relative;
+    top: -1px;
+    border-bottom: 1px solid var(--colorPrimary);
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .tf__home_2_banner_text {
+    height: auto;
+  }
+
+  .tf__home_2_banner_text h1 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .tf__home_2_banner_text .tf__content {
+    padding-top: 150px;
+  }
+
+  .tf__home_2_banner_image {
+    height: auto;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 350px;
+  }
+
+  .home_2 .tf__about_img_box .tf__main_img {
+    width: 100%;
+    padding-left: 80px;
+  }
+
+  .home_2 .tf__about_img_box {
+    padding-right: 0;
+  }
+
+  .tf__home_2_about_counter {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .tf__counter_item {
+    margin-top: 50px;
+  }
+
+  .tf__home_2_about_counter h4 {
+    justify-content: center;
+  }
+
+  .tf__home_2_about_counter p {
+    text-align: center;
+  }
+
+  .tf__home_2_services::after {
+    display: none;
+  }
+
+  .tf__home_2_video_content h2 {
+    font-size: 40px;
+    line-height: 56px;
+    padding: 15px;
+  }
+
+  .home_2 .row.tf__home_2_subscribe {
+    padding: 40px 25px;
+    width: 100%;
+    left: auto;
+  }
+
+  .tf__home_2_subscribe .tf__text h3 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+  }
+
+  .tf__home_2_subscribe .tf__form form input {
+    padding: 19px 30px;
+  }
+
+  .home_2 .tf__footer_body {
+    padding-top: 200px !important;
+  }
+
+  .home_2 .tf__footer_right_bottom ul {
+    margin-top: 20px;
+  }
+
+  .home_2 .tf__footer_right_bottom ul li a {
+    font-size: 16px;
+  }
+
+  .tf__home_2_team_item .tf__text {
+    padding: 45px 20px 20px 20px;
+  }
+
+  .tf__home_2_counter_item {
+    padding: 20px 20px;
+  }
+
+  .home_2 .tf__footer_gallery li {
+    width: 75px;
+    height: 75px;
+  }
+
+  .tf__footer_right_bottom {
+    justify-content: start;
+  }
+
+  .tf__home_2_banner_slider .tf__slide_item {
+    height: auto;
+  }
+
+  /*==============================
+    HOME PAGE 2 END
+  ==============================*/
 }
-
-
 
 @media (max-width: 575.99px) {
 
@@ -932,7 +1949,6 @@
     HOME PAGE END
   =============================*/
 
-
   /*==============================
     404 PAGE START
   =============================*/
@@ -957,4 +1973,433 @@
     404 PAGE END
   =============================*/
 
+  /*==============================
+    BLOG DETAILS START
+  ==============================*/
+  .tf__shop_details_img,
+  .tf__blog_details_img,
+  .tf__services_details_img,
+  .tf__projects_details_img {
+    height: 250px;
+  }
+
+  .tf__shop_details_text h2,
+  .tf__services_details_text h2,
+  .tf__blog_details_text h2,
+  .tf__projects_details_text h2 {
+    font-size: 24px;
+  }
+
+  .blog_details_share li:first-child {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .blog_details_share li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .blog_details_share {
+    justify-content: start;
+  }
+
+  .tf__single_comment_text {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .tf__single_comment_img {
+    margin-bottom: 10px;
+  }
+
+  .tf__single_comment_text h3 {
+    font-size: 16px;
+  }
+
+  .comment_reply {
+    margin-left: 0;
+  }
+
+  .comment_reply .tf__single_comment_text {
+    width: 100%;
+  }
+
+  .tf__comment_area h2,
+  .tf__comment_input_area h2 {
+    font-size: 24px;
+  }
+
+  .tf__blog_details_content {
+    margin-bottom: 50px;
+  }
+
+  .tf__common_btn {
+    font-size: 14px;
+    padding: 10px 20px !important;
+  }
+
+  .tf__sidebar h3 {
+    font-size: 22px;
+  }
+
+  .tf__sidebar_category ul li a {
+    font-size: 16px;
+  }
+
+  .tf__sidebar_post ul li .img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  .tf__sidebar_post ul li .text a {
+    font-size: 16px;
+  }
+
+  .tf__sidebar_post ul li .text p {
+    margin-bottom: 5px;
+  }
+
+  .tf__sidebar_post ul li .text {
+    width: 66%;
+  }
+
+  .blog_details_center_img {
+    height: auto;
+  }
+
+  /*==============================
+    BLOG DETAILS END
+  ==============================*/
+
+  /*==============================
+    CART VIEW START
+  ==============================*/
+  .tf__cart_view .tf__common_btn {
+    min-width: 100%;
+  }
+
+  /*==============================
+    CART VIEW END
+  ==============================*/
+
+  /*==============================
+    SIGN IN START
+  ==============================*/
+  .tf__sing_in_img {
+    display: none;
+  }
+
+  .tf__sing_in_text {
+    padding: 25px;
+  }
+
+  .tf__sing_in_text ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .tf__sign_in_input a {
+    margin-top: 10px;
+  }
+
+  /*==============================
+    SIGN IN END
+  ==============================*/
+
+  .tf__single_payment {
+    height: auto;
+  }
+
+  .tf__single_pricing {
+    padding: 25px;
+  }
+
+  .tf__privacy_policy_text h1,
+  .tf__privacy_policy_text h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  /*==============================
+    PROJECT DETAILS START
+  ==============================*/
+  .details_next_preview {
+    margin-bottom: 25px;
+  }
+
+  .details_next_preview li {
+    width: 50%;
+  }
+
+  .details_next_preview li:last-child a {
+    justify-content: end;
+  }
+
+  .details_next_preview li a span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .details_next_preview li a {
+    font-size: 13px;
+  }
+
+  .sidebar_project_info {
+    padding: 20px;
+  }
+
+  .sidebar_project_info h2 {
+    font-size: 22px;
+  }
+
+  .sidebar_project_info .list li span {
+    font-size: 16px;
+  }
+
+  .sidebar_project_info .link li a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .related_project h2 {
+    font-size: 26px;
+  }
+
+  /*==============================
+    PROJECT DETAILS END
+  ==============================*/
+
+  /*==============================
+    SERVICE DETAILS START
+  ==============================*/
+  .tf__services_details_text span {
+    padding: 20px 20px;
+  }
+
+  .details_center_img {
+    height: 250px;
+  }
+
+  .details_aacordian {
+    margin-bottom: 50px;
+  }
+
+  .tf__sidebar_contact .text {
+    padding: 20px;
+  }
+
+  .tf__sidebar_contact .text h4 {
+    font-size: 32px;
+  }
+
+  .tf__sidebar_contact {
+    height: 370px;
+  }
+
+  /*==============================
+    SERVICE DETAILS END
+  ==============================*/
+
+  /*==============================
+    SHOP DETAILS START
+  ==============================*/
+  .tf__shop_details_header h2 {
+    font-size: 24px;
+  }
+
+  .tf__shop_details_header ul li:first-child {
+    width: 100%;
+    margin: 15px 0px;
+  }
+
+  .tf__shop_details_header ul li a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  /*==============================
+    SHOP DETAILS END
+  ==============================*/
+
+  /*==============================
+    SHOP PAGE START
+  ==============================*/
+  .tf__shop_filter .select2-container--default .select2-selection--single {
+    margin-bottom: 20px;
+  }
+
+  .tf__shop_filter input {
+    margin-bottom: 20px;
+  }
+
+  .tf__single_shop_text {
+    padding: 20px;
+  }
+
+  .tf__single_shop_text .title {
+    font-size: 20px;
+  }
+
+  .tf__single_shop_img {
+    height: 200px;
+  }
+
+  /*==============================
+    SHOP PAGE END
+  ==============================*/
+
+  /*==============================
+    TEAM DETAILS START
+  ==============================*/
+  .tf_team_detils_img {
+    height: auto;
+  }
+
+  .tf_team_detils_text h2 {
+    font-size: 28px;
+    margin-top: 25px;
+  }
+
+  .tf_team_detils_text ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+  }
+
+  /*==============================
+    TEAM DETAILS END
+  ==============================*/
+
+  /*==============================
+    HOME PAGE 2 START
+  ==============================*/
+  .tf__get_a_quote {
+    background: var(--colorWhite);
+    position: relative;
+    top: -1px;
+    border-bottom: 1px solid var(--colorPrimary);
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+  }
+
+  .tf__home_2_banner_text h3 {
+    font-size: 16px;
+  }
+
+  .tf__home_2_banner_text {
+    height: auto;
+  }
+
+  .tf__home_2_banner_text h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .tf__home_2_banner_text .tf__content {
+    padding-top: 150px;
+  }
+
+  .tf__home_2_banner_image {
+    height: auto;
+    margin-top: 80px;
+  }
+
+  .home_2 .tf__about_img_box .tf__main_img {
+    width: auto;
+    height: auto;
+    padding-left: 0;
+  }
+
+  .home_2 .tf__about_img_box {
+    padding-right: 0;
+  }
+
+  .tf__home_2_about_counter {
+    display: block;
+    padding: 0;
+  }
+
+  .tf__counter_item {
+    margin-top: 50px;
+  }
+
+  .tf__home_2_about_counter h4 {
+    justify-content: center;
+  }
+
+  .tf__home_2_about_counter p {
+    text-align: center;
+  }
+
+  .tf__home_2_services::after {
+    display: none;
+  }
+
+  .tf__home_2_video_content h2 {
+    font-size: 30px;
+    line-height: 48px;
+    padding: 15px;
+  }
+
+  .tf_home_2_single_team {
+    padding: 60px 20px 20px 20px;
+  }
+
+  .tf_home_2_single_team .tf__item_bottom {
+    display: block;
+  }
+
+  .home_2 .row.tf__home_2_subscribe {
+    padding: 20px 10px;
+    width: 100%;
+    left: auto;
+  }
+
+  .tf__home_2_subscribe .tf__text h3 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 30px;
+  }
+
+  .tf__home_2_subscribe .tf__form form input {
+    padding: 19px 30px;
+  }
+
+  .home_2 .tf__footer_body {
+    padding-top: 200px !important;
+  }
+
+  .home_2 .tf__footer_right_bottom ul {
+    gap: 4px;
+    justify-content: start;
+    margin-top: 20px;
+  }
+
+  .home_2 .tf__footer_right_bottom ul li a {
+    font-size: 16px;
+  }
+
+  .tf__home_2_banner_slider .tf__slide_item {
+    height: auto;
+  }
+
+  .tf__home_2_banner_slider .tf__slide_item {
+    height: auto;
+  }
+
+  /*==============================
+    HOME PAGE 2 END
+  ==============================*/
 }
