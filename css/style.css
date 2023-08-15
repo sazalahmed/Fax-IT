@@ -1,9 +1,9 @@
 /* 
 ***************************************
-Template Name: TechnoSoft - Cereative Agency HTML Template
-Author: ThemeFax 
-Author Email: themefaxbd@gmail.com
-website: http://www.themefax.com/
+Template Name: TechnoSoft - Creative Agency HTML Template
+Author: technosoftintegrationbd 
+Author Email: technosoftintegrationbd@gmail.com
+website: http://www.technosoftintegrationbd.com/
 Version: 1.0
 Description: TechnoSoft - A Creative Agency HTML Template is a cutting-edge, multipurpose template created especially for IT services, technology, cyber security, IT solutions, and consulting companies associated with any business website. This is quite adaptable and looks great on mobile devices. EduFax Template has a fully responsive layout. TechnoSoft It fits perfectly on various displays and resolutions from regular desktop screens to tablets, iPads, iPhones, and small mobile devices.
 ***************************************
@@ -24,14 +24,10 @@ CSS INDEX
 12. SHOP DETAILS 
 13. SIGN IN
 14. 404 
-14. CART VIEW 
-15. CHECKOUT 
-16. PAYMENT
-
-/*==============================
-  GLOBAL CSS START
-===============================*/
-
+15. CART VIEW 
+16. CHECKOUT 
+17. PAYMENT
+18. CONTACT
 
 /*==============================
   GLOBAL CSS START
@@ -1205,10 +1201,7 @@ header {
 }
 
 .tf__feature_item {
-  background: url(../images/Features-itemBG.jpg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover;
+  background: var(--colorWhite);
   padding: 35px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -2061,6 +2054,22 @@ header {
 /* footer start */
 footer {
   background: var(--colorBlack);
+  position: relative;
+}
+
+footer::after {
+  position: absolute;
+  content: "";
+  background: url(../images/service_bg_shapes.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .08;
 }
 
 .tf__footer_contact {
@@ -5406,4 +5415,169 @@ CHECKOUT PAGE END
 
 /*============================
   PAYMENT PAGE END
+============================*/
+
+/*============================
+    CONTACT PAGE START
+============================*/
+.tf__contact_info_area {
+  background: #f3f7fb;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.tf__contact_info {
+  border-bottom: 1px solid #ff383847;
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+}
+
+.tf__contact_info span {
+  width: 70px;
+  height: 70px;
+  display: block;
+  line-height: 70px;
+  text-align: center;
+  background: var(--colorPrimary);
+  border-radius: 50%;
+  color: var(--colorWhite);
+  font-size: 30px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.tf__contact_info span::after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  top: -5px;
+  left: -5px;
+  border: 1px dashed var(--colorPrimary);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  animation: roatate linear 30s infinite;
+  -webkit-animation: roatate linear 30s infinite;
+}
+
+@keyframes roatate {
+  from {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+.tf__contact_info h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  color: var(--colorPrimary);
+}
+
+.tf__contact_info p {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: var(--colorBlack);
+  line-height: 29px;
+}
+
+.tf__contact_form {
+  background: #f3f7fb;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.tf__contact_form h3 {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tf__contact_form_input {
+  position: relative;
+  margin-top: 20px;
+}
+
+.tf__contact_form_input span {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  top: 50%;
+  left: 0;
+  border-radius: 10px 0px 0px 10px;
+  transform: translateY(-50%);
+  background: #ff383830;
+  color: var(--colorPrimary);
+  border-right: 1px solid #E4E7E9;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.tf__contact_form_input input,
+.tf__contact_form_input textarea {
+  padding: 12px 20px 12px 65px;
+}
+
+.tf__contact_form_input.textarea span {
+  height: 96%;
+  top: 0;
+  transform: translate(0);
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
+}
+
+.tf__contact_form .common_btn {
+  margin-top: 15px;
+}
+
+.tf__contact_map {
+  width: 100%;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.tf__contact_map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/*============================
+  CONTACT PAGE END
 ============================*/
